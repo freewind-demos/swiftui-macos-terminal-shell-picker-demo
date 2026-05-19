@@ -28,3 +28,11 @@ targets:
         CODE_SIGN_STYLE: Manual
         DEVELOPMENT_TEAM: ""
         ENABLE_HARDENED_RUNTIME: NO
+    productName: SwiftUIMacOSTerminalShellPickerDemo
+schemes:
+  SwiftUIMacOSTerminalShellPickerDemo:
+    build:
+      targets:
+        SwiftUIMacOSTerminalShellPickerDemo: all
+    run:
+      config: Debug
